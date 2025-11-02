@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Acme Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="logo" href="index.html">Acme Agency</a>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="#services">Services</a>
+                <a href="about.html">About</a>
+                <a href="#team">Team</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Meet Our Team</h1>
+                <p>The creative minds behind Acme Agency's success.</p>
+            </div>
+        </section>
+
+        <section id="team" class="container team">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="member">
+                    <div class="member-avatar">JD</div>
+                    <h3>Jane Doe</h3>
+                    <p>Lead Designer</p>
+                    <p>Jane brings over 8 years of experience in UX/UI design. She's passionate about creating intuitive user experiences that drive conversions and delight users. Her expertise spans from mobile app design to complex web platforms.</p>
+                    <div class="member-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-avatar">JS</div>
+                    <h3>John Smith</h3>
+                    <p>Senior Developer</p>
+                    <p>John is our technical wizard with expertise in modern web technologies. He ensures our solutions are fast, scalable, and maintainable. His skills include React, Node.js, and cloud architecture.</p>
+                    <div class="member-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-avatar">AB</div>
+                    <h3>Alice Brown</h3>
+                    <p>Strategy Consultant</p>
+                    <p>Alice helps our clients define their digital roadmap. With a background in business strategy, she bridges the gap between business goals and technical solutions. She's worked with startups and Fortune 500 companies alike.</p>
+                    <div class="member-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Medium</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container join-team">
+            <h2>Join Our Team</h2>
+            <p>We're always looking for talented individuals to join our growing team. If you're passionate about digital innovation and want to work on exciting projects, we'd love to hear from you.</p>
+            <a href="contact.html" class="btn">View Open Positions</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>&copy; <span id="year"></span> Acme Agency — All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script>
+        // simple dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

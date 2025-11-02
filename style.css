@@ -70,7 +70,7 @@ body{
   background:#fff;
 }
 
-.about, .team, .contact{margin-top:2rem}
+.about, .team, .contact, .process, .join-team, .cta{margin-top:2rem}
 
 .about-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:1rem}
 .about-text p{margin-bottom:1rem}
@@ -92,6 +92,20 @@ body{
 .contact-form label{display:block;margin-bottom:0.5rem;font-weight:500}
 .contact-form input,.contact-form textarea{width:100%;padding:0.75rem;border:1px solid #e6e9ee;border-radius:4px;font-family:inherit}
 .contact-form textarea{resize:vertical}
+
+.process-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin-top:1rem}
+.step{text-align:center;border:1px solid #e6e9ee;padding:2rem;border-radius:8px;background:#fff}
+.step-number{width:50px;height:50px;border-radius:50%;background:var(--accent);color:white;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto 1rem;font-size:1.2rem}
+.step h3{margin:0 0 0.5rem}
+.step p{margin:0.5rem 0;color:var(--muted)}
+
+.join-team, .cta{text-align:center;padding:3rem 0;background:linear-gradient(180deg, rgba(14,165,164,0.06), transparent);border-radius:8px;margin-top:2rem}
+.join-team p, .cta p{margin:1rem 0}
+.join-team .btn, .cta .btn{margin-top:1rem}
+
+.member-links{display:flex;gap:1rem;justify-content:center;margin-top:1rem}
+.social-link{color:var(--accent);text-decoration:none;font-weight:500}
+.social-link:hover{text-decoration:underline}
 
 .site-footer{border-top:1px solid #e5e7eb;padding:1rem 0;text-align:center;color:var(--muted)}
 
